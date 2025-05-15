@@ -35,7 +35,7 @@ export default function PlacesScreen() {
         };
 
         // Step 2: save location data in DB
-        fetch("http://192.168.1.87:3000/places", {
+        fetch("https://locapic-backend-mocha.vercel.app/places", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -55,7 +55,7 @@ export default function PlacesScreen() {
   };
 
   const handleDelete = (placeName) => {
-    fetch("http://192.168.1.87:3000/places", {
+    fetch("https://locapic-backend-mocha.vercel.app/places", {
       method: "DELETE",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ nickname: user.nickname, name: placeName }),

@@ -34,7 +34,7 @@ export default function MapScreen() {
     })();
 
     // Import data from DB
-    fetch(`http://192.168.1.87:3000/places/${user.nickname}`)
+    fetch(`https://locapic-backend-mocha.vercel.app//places/${user.nickname}`)
       .then((response) => response.json())
       .then((data) => {
         console.log("ALL PLACES", data);
@@ -54,7 +54,7 @@ export default function MapScreen() {
       latitude: tempCoordinates.latitude,
       longitude: tempCoordinates.longitude,
     };
-    fetch("http://192.168.1.87:3000/places", {
+    fetch("https://locapic-backend-mocha.vercel.app/places", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(placeData),
