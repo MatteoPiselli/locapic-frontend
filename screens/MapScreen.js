@@ -34,7 +34,7 @@ export default function MapScreen() {
     })();
 
     // Import data from DB
-    fetch(`https://locapic-backend-mocha.vercel.app//places/${user.nickname}`)
+    fetch(`https://locapic-backend-mocha.vercel.app/places/${user.nickname}`)
       .then((response) => response.json())
       .then((data) => {
         console.log("ALL PLACES", data);
