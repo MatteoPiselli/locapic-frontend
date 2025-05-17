@@ -72,6 +72,7 @@ All the technologies I used for this mobile application.
 
 ## 🚀 Features
 
-- 📍 Geolocate a user
-- 🗺️ Map interactive
-- 🔻 Add points of interest
+- 📍 Geolocate a user : Track and display the user's location dynamically.
+- 🗺️ Map interactive : View the user’s movements and points of interest on an intuitive map that can be zoomed in.
+- 🔻 Add points of interest : Add markers to highlight desired locations.
+- 🏙 City Integration: Automatically add cities on the map using the Address API.
