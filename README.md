@@ -72,8 +72,6 @@ All the technologies I used for this mobile application.
 
 ## 🚀 Features
 
-- 📷 Capture photos and selfies directly from the app
-- 🖼️ View and manage a photo gallery
-- ☁️ Store images on Cloudinary
-- ⚡ Quick loading of images via CDN
-- 📱 Mobile user interface
+- 📍 Geolocate a user
+- 🗺️ Map interactive
+- 🔻 Add points of interest
