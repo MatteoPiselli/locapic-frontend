@@ -1,7 +1,6 @@
 # 📍 Locapic
 
-**Locapic** is a mobile application that allows to geolocate a user by materializing his movements on an interactive map and offering the possibility of adding points of interest.  
-The application also uses the Address API to add cities.
+**Locapic** is a mobile application that allows to geolocate a user by materializing his movements on an interactive map and offering the possibility of adding points of interest. The application also uses the Address API to add cities.
 
 ---
 
