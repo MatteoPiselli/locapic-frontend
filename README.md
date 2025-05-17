@@ -1,7 +1,6 @@
-# 📸 FaceUp
+# 📍 Locapic
 
-**FaceUp** is a mobile application for taking photos and storing them in an image gallery.  
-Images are stored and delivered via **Cloudinary**, a cloud-based image management service that ensures optimized media storage and fast delivery through CDN.
+**Locapic** is a mobile application that allows to geolocate a user by materializing his movements on an interactive map and offering the possibility of adding points of interest.
 
 ---
 
@@ -14,17 +13,13 @@ Images are stored and delivered via **Cloudinary**, a cloud-based image manageme
 
 ## 📱 Tech Stack  
 
-All the technologies I used for this mobile application
+All the technologies I used for this mobile application.
 
 #### Front-end
 <table>
   <tr>
     <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30"/></td>
     <td>React Native</td>
-  </tr>
-  <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="30"/></td>
-    <td>TypeScript</td>
   </tr>
   <tr>
     <td><img src="https://avatars.githubusercontent.com/u/12504344?s=200&v=4" width="30"/></td>
@@ -36,7 +31,7 @@ All the technologies I used for this mobile application
   </tr> 
 </table>
 
-#### Back-end
+#### Back-end & BDD
 <table>
   <tr>
     <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="30"/></td>
@@ -45,6 +40,10 @@ All the technologies I used for this mobile application
   <tr>
     <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="30"/></td>
     <td>Express</td>
+  </tr>
+  <tr>
+    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="30" /></td>
+    <td>MongoDB</td>
   </tr>
 </table>
 
@@ -55,8 +54,8 @@ All the technologies I used for this mobile application
     <td>Git / GitHub</td>
   </tr>
   <tr>
-    <td><img src="https://res.cloudinary.com/da72rixci/image/upload/v1747386666/samples/cloudinary-icon.png" width="30"/></td>
-    <td>Cloudinary (image hosting & CDN)</td>
+    <td><img src="https://github.com/BaseAdresseNationale/adresse.data.gouv.fr/blob/main/public/logos/certificat/BAN.png" width="30"/></td>
+    <td>adresse.data.gouv (API)</td>
   </tr>
   <tr>
     <td><img src="https://avatars.githubusercontent.com/u/12504344?s=200&v=4" width="30"/></td>
